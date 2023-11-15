@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+
+        body {
+  background-image:url("New_map.jpg");
+  background-repeat:repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 98vh;
+            background-color: #f4f4f4;
+        }
+
+        .Sign-Up {
+            text-align:center
+        }
+
+        .login-container {
+            border: 1px ;
+            padding: 20px;
+            width: 350px;
+            height: 500px;
+            background-color: #fff;
+        }
+        .Sign-Up-field {
+            margin: 20px 0px;
+            display: block;
+            width: 95%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px 10px 10px 10px;
+            background-color: #f4f4f4;
+            font-family:'verdana'
+        }
+        .Stay-Sign-In-button {
+            margin: 10px 0px;
+            display: inline-block;
+            padding: 10px 10px;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .Stay-Sign-In {
+            display: inline-block;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+
+        .Main-button {
+            margin: 50px 30px;
+            display: inline-block;
+            padding: 40px 40px;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border: 2px solid #ccc;
+            border-radius: 35px 35px 35px 35px;
+
+            background-image:url("Button.png");
+  background-repeat:repeat;
+  background-size: cover;
+        }
+
+        .Create-Account {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            font-size:10px;
+        }
+
+        .Create-Account-link {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            font-size:11px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2 class="Sign-Up" style="font-size:30px"> Sing Up</h2>
+        <input type="text" placeholder="Username" class="Sign-Up-field">
+        <input type="password" placeholder="Password" class="Sign-Up-field">
+        <input type="password" placeholder="Password" class="Sign-Up-field">
+        <button class="Stay-Sign-In-button"></button>
+        <a class="Stay-Sign-In" style="font-size:12px">Stay Sign In</a>
+        <button   class="Main-button"></button>
+        <div class="Create-Account" style="color:#ccc">
+            CAN'T SIGN IN?
+        </div>
+        <div class="Create-Account-link" style="color:#ccc">
+            CREATE ACCOUNT
+        </div>
+    </div>
+
+</body>
+</html>
